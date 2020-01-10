@@ -13,7 +13,7 @@
 
 Name:           mingw32-termcap
 Version:        1.3.1
-Release:        8%{?dist}.4
+Release:        8%{?dist}.5
 Summary:        MinGW terminal feature database
 
 
@@ -98,6 +98,10 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 22 2011 Kai Tietz <ktietz@redhat.com>
+- Adjusted version and rebuild using gcc 4.4.6
+  Related: rhbz#722878
+
 * Mon Dec 27 2010 Andrew Beekhof <abeekhof@redhat.com> - 1.3.1-8.4
 - Rebuild everything with gcc-4.4
   Related: rhbz#658833
